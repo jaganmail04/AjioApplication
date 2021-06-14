@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17508" started-at="2021-06-13T16:47:14Z" finished-at="2021-06-13T16:47:32Z">
+  <suite name="Default suite" duration-ms="13643" started-at="2021-06-14T03:50:30Z" finished-at="2021-06-14T03:50:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17508" started-at="2021-06-13T16:47:14Z" finished-at="2021-06-13T16:47:32Z">
+    <test name="Default test" duration-ms="13643" started-at="2021-06-14T03:50:30Z" finished-at="2021-06-14T03:50:43Z">
       <class name="com.cyient.test.signupTermsTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.cyient.test.signupTermsTest@5e3a8624]" name="setup" is-config="true" duration-ms="10036" started-at="2021-06-13T16:47:14Z" finished-at="2021-06-13T16:47:24Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cyient.test.signupTermsTest@5e3a8624]" name="setup" is-config="true" duration-ms="9219" started-at="2021-06-14T03:50:30Z" finished-at="2021-06-14T03:50:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validCredentialTest(java.lang.String)[pri:0, instance:com.cyient.test.signupTermsTest@5e3a8624]" name="validCredentialTest" duration-ms="6249" started-at="2021-06-13T16:47:24Z" data-provider="termsAndConditionsExcelData" finished-at="2021-06-13T16:47:31Z">
+        <test-method status="PASS" signature="validCredentialTest(java.lang.String)[pri:0, instance:com.cyient.test.signupTermsTest@5e3a8624]" name="validCredentialTest" duration-ms="3166" started-at="2021-06-14T03:50:39Z" data-provider="termsAndConditionsExcelData" finished-at="2021-06-14T03:50:42Z">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validCredentialTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.cyient.test.signupTermsTest@5e3a8624]" name="teardown" is-config="true" duration-ms="854" started-at="2021-06-13T16:47:31Z" finished-at="2021-06-13T16:47:32Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.cyient.test.signupTermsTest@5e3a8624]" name="teardown" is-config="true" duration-ms="810" started-at="2021-06-14T03:50:42Z" finished-at="2021-06-14T03:50:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

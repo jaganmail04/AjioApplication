@@ -2,7 +2,6 @@ package com.cyient.page;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.Select;
 
 public class LoginPage {
 	
@@ -37,10 +36,12 @@ public class LoginPage {
 		return driver.findElement(errorMessageLocator).getText();
 	}
 	
-	public void clickTerms() {
+	public void clickTerms(){
 		driver.findElement(termsLocator).click();
-		
 	}
+
+		
+			
 		
 	 
 		
